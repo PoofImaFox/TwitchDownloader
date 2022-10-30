@@ -1,32 +1,35 @@
-﻿<BSNavbar Color="BSColor.Dark">
+﻿<BSNavbar style="background-color: #BD6DC4;" Class="opacity-75">
     <BSContainer Container="Container.Fluid">
-        <BSNavbarBrand>Twitch Downloader</BSNavbarBrand>
+        <BSNavbarBrand>Twitch Archiver</BSNavbarBrand>
         <BSCollapse IsInNavbar="true">
             <Toggler>
-                <BSNavbarToggle/>
+                <BSNavbarToggle />
             </Toggler>
             <Content>
                 <BSNav MarginEnd="Margins.Auto" MarginBottom="Margins.Small" Class="mb-lg-0">
-                    <BSNavItem IsActive="true" Url="javascript:void(0);">Home</BSNavItem>
-                    <BSNavItem Url="javascript:void(0);">Link</BSNavItem>
+                    <BSNavItem IsActive="true" Url="https://github.com/PoofImaFox/TwitchDownloader">Source code</BSNavItem>
+
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
-                            <Toggler><BSToggle IsNavLink="true">Dropdown</BSToggle></Toggler>
+                            <Toggler><BSToggle IsNavLink="true">Exporting</BSToggle></Toggler>
                             <Content>
-                                <BSDropdownItem Url="javascript:void(0);">Action</BSDropdownItem>
-                                <BSDropdownItem Url="javascript:void(0);">Another action</BSDropdownItem>
-                                <BSDropdownItem IsDivider="true"/>
-                                <BSDropdownItem Url="javascript:void(0);">Something else here</BSDropdownItem>
+                                <BSDropdownItem Url="/Export/Vods">Export Vods</BSDropdownItem>
+                                <BSDropdownItem Url="/Export/Clips">Export Clips</BSDropdownItem>
+                                <BSDropdownItem Url="/Export/Chat">Export Chat</BSDropdownItem>
                             </Content>
                         </BSDropdown>
                     </BSNavItem>
-                    <BSNavItem Url="javascript:void(0);" IsDisabled="true">Disabled</BSNavItem>
+
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown>
+                            <Toggler><BSToggle IsNavLink="true">Rendering</BSToggle></Toggler>
+                            <Content>
+                                <BSDropdownItem Url="/Render/Chat">Render Chat</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
                 </BSNav>
             </Content>
         </BSCollapse>
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <BSButton Color="BSColor.Success" IsOutlined="true">Search</BSButton>
-        </form>
     </BSContainer>
 </BSNavbar>

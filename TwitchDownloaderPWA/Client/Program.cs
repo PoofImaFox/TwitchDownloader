@@ -3,8 +3,6 @@ using BlazorStrap;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
-using TwitchDownloaderPWA;
-
 namespace TwitchDownloaderPWA {
     public class Program {
         public static async Task Main(string[] args) {
