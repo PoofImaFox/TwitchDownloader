@@ -2,19 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BlazorStrap" Version="5.0.106" />
+    <PackageReference Include="GraphQL.Client" Version="5.1.0" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.10" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TwitchDownloaderCore\TwitchDownloaderCore.csproj" />
+    <ProjectReference Include="..\TwitchDownloader.Services\TwitchDownloader.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

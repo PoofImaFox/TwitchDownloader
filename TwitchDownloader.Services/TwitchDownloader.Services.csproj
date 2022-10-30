@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Interfaces\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="GraphQL.Client" Version="5.1.0" />
+		<PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+</Project>

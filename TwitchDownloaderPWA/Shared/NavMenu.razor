@@ -9,13 +9,15 @@
                 <BSNav MarginEnd="Margins.Auto" MarginBottom="Margins.Small" Class="mb-lg-0">
                     <BSNavItem IsActive="true" Url="https://github.com/PoofImaFox/TwitchDownloader">Source code</BSNavItem>
 
+                    <BSNavItem IsActive="false" Url="./Account/">Account Info</BSNavItem>
+
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
                             <Toggler><BSToggle IsNavLink="true">Exporting</BSToggle></Toggler>
                             <Content>
-                                <BSDropdownItem Url="/Export/Vods">Export Vods</BSDropdownItem>
-                                <BSDropdownItem Url="/Export/Clips">Export Clips</BSDropdownItem>
-                                <BSDropdownItem Url="/Export/Chat">Export Chat</BSDropdownItem>
+                                <BSDropdownItem Url="./Export/Vods">Export Vods</BSDropdownItem>
+                                <BSDropdownItem Url="./Export/Clips">Export Clips</BSDropdownItem>
+                                <BSDropdownItem Url="./Export/Chat">Export Chat</BSDropdownItem>
                             </Content>
                         </BSDropdown>
                     </BSNavItem>
@@ -24,7 +26,7 @@
                         <BSDropdown>
                             <Toggler><BSToggle IsNavLink="true">Rendering</BSToggle></Toggler>
                             <Content>
-                                <BSDropdownItem Url="/Render/Chat">Render Chat</BSDropdownItem>
+                                <BSDropdownItem Url="./Render/Chat">Render Chat</BSDropdownItem>
                             </Content>
                         </BSDropdown>
                     </BSNavItem>

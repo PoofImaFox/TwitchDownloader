@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.github\workflows\static.yml = .github\workflows\static.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDownloader.Services", "TwitchDownloader.Services\TwitchDownloader.Services.csproj", "{67949B39-587E-4C7E-BD46-A5789A438243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDownloader.Services.Tests", "TwitchDownloader.Services.Tests\TwitchDownloader.Services.Tests.csproj", "{A558472A-B4D2-456E-AD13-204C1BAA34A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,22 @@ Global
 		{3B22593A-FB5F-4EC9-9821-D44B9E3D384F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B22593A-FB5F-4EC9-9821-D44B9E3D384F}.Release|x64.ActiveCfg = Release|Any CPU
 		{3B22593A-FB5F-4EC9-9821-D44B9E3D384F}.Release|x64.Build.0 = Release|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Debug|x64.Build.0 = Debug|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Release|x64.ActiveCfg = Release|Any CPU
+		{67949B39-587E-4C7E-BD46-A5789A438243}.Release|x64.Build.0 = Release|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{A558472A-B4D2-456E-AD13-204C1BAA34A1}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
