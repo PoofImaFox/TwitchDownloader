@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchDownloaderCore", "Twi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchDownloaderCLI", "TwitchDownloaderCLI\TwitchDownloaderCLI.csproj", "{F14A9B02-36A4-4FFF-9AD0-7475E2CF2D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDownloaderPWA", "TwitchDownloaderPWA\TwitchDownloaderPWA.csproj", "{3B22593A-FB5F-4EC9-9821-D44B9E3D384F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchDownloaderPWA", "TwitchDownloaderPWA\TwitchDownloaderPWA.csproj", "{3B22593A-FB5F-4EC9-9821-D44B9E3D384F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE577421-E3A3-4205-AACC-A688B3D52C1C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\static.yml = .github\workflows\static.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
