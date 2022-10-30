@@ -34,7 +34,7 @@ jobs:
       - uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.0.x'
-      - run: dotnet publish TwitchDownloaderPWA --configuration Release -o ./Pwa
+      - run: dotnet publish TwitchDownloaderPWA --configuration Release -o /Pwa
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './Pwa/wwwroot/'
+          path: '/Pwa/wwwroot/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
